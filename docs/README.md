@@ -1,27 +1,29 @@
 <!-- TODO: Update with your values. -->
-# Docsify Themeable
-> Starter template for a docs site using Docsify Themeable
+# Introduction
+> "A ship is safe in harbor, but that's not what ships are for." - William G.T.
 
- <!-- TODO: Update repo links and change license type if needed. -->
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/docsify-themeable-quickstart)](https://github.com/MichaelCurrin/docsify-themeable-quickstart/tags/?include_prereleases&sort=semver)
-[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/MichaelCurrin/docsify-themeable/blob/master/README#license)
+This website is a resource that students and software engineers can use to prepare for their upcoming coding interviews. It is a comprehensive guide detailing patterns and algorithms that often appear during the technical interview. Written and developed by [@jessebinghan](https://www.instagram.com/jessebinghan/) through experiences, practice and research.
 
-[![Made with latest Docsify](https://img.shields.io/npm/v/docsify/latest?label=docsify)](https://docsify.js.org/)
-[![Made with latest Docsify Themeable](https://img.shields.io/npm/v/docsify-themeable/latest?label=docsify-themeable)](https://jhildenbiddle.github.io/docsify-themeable/)
+## Features
+- :hourglass_flowing_sand: Quickly understand the basics of data structures
+- :thought_balloon: Learn to recognize popular coding question patterns
+- :book: Concisely written to avoid lengthy reading time
+- :pencil2: Elegantly commented for comprehension
+- :link: Sidebar organized into distinctive sections to learn specific topics
+- :goberserk: AAAAAAAAAAAAAAAAA!
 
-To learn more about DocsifyJS, see [DocsifyJS Tutorial](https://michaelcurrin.github.io/docsify-js-tutorial/).
+## Learning
 
-
-## Preview
-
-_TODO: Complete with your content - such as a screenshot of your app or command-line usage. You can also rename Preview to Sample._
-
-
-## Installation
-
-_TODO: Add your instructions here or link to an installation.md page._
+_Suggested learning strategy:_ Read the question prompt and attempt the problem until stuck. At this stage, your brain will do the most learning. Similar to maximal muscle growth in the gym when nearing failure, you want your brain to try to complete the question until absolutely all ideas are exhausted (_est. 30 min_). At this point, read the approach given and code out the solution on an IDE of your choice. Then, you may check the source code provided to cross-reference for mistakes.
 
 
-## Usage
+## Socials
+<li style="list-style-type: none; display: flex; justify-content: space-between;">
+    <a href="mailto:jessehanca@gmail.com" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/google-plus-squared.png" width=90px></a>
+    <a href="https://www.instagram.com/jessebinghan/" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png" width=90px></a>
+    <a href="https://www.linkedin.com/in/jessebinghan/" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/linkedin.png" width=90px></a>
+    <a href="https://github.com/dev-jesse" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/github.png" width=90px></a>
+    <a href="https://www.youtube.com/watch?v=GbZFSi8L1V4" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/youtube.png"width=90px></a>
+</li>
 
-_TODO: Add your instructions here or link to a usage.md page._
+_Youtube coming soon... :)_
