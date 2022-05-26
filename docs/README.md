@@ -1,8 +1,7 @@
-<!-- TODO: Update with your values. -->
 # Introduction
-> "A ship is safe in harbor, but that's not what ships are for." - William G.T.
-
-This website is a resource that students and software engineers can use to prepare for their upcoming coding interviews. It is a comprehensive guide detailing patterns and algorithms that often appear during the technical interview. Written and developed by [@jessebinghan](https://www.instagram.com/jessebinghan/) through experiences, practice and research.
+> "A ship is safe in harbor, but that's not what ships are for." <br> - William G.T.
+ 
+This website is a resource that students and software engineers can use to prepare for their upcoming coding interviews. It is a comprehensive guide detailing patterns and algorithms that often appear during the technical interview. Written and developed by [@jessebinghan](https://www.instagram.com/jessebinghan/) through experience, practice and research.
 
 ## Features
 - :hourglass_flowing_sand: Quickly understand the basics of data structures
