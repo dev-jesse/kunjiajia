@@ -1,2 +1,2 @@
 # Kunjiajia
-Personal site...? Pretty self explanatory.
+Interview prep site...? Pretty self explanatory.
