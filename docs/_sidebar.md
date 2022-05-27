@@ -1,5 +1,5 @@
 <!-- TODO: Complete with your own sidebar structure and enable sidebar in index.html - or delete this file. -->
-- [Introduction](README.md "Introduction - kunjiajia")
+- [Introduction](introduction.md "Introduction - kunjiajia")
 - [Rules of Code](rules-of-code.md "Rules of Code - kunjiajia")
 - [Code Quality Crash Course](12-tricks-to-improve-code-quality.md "Code Quality Tricks - kunjiajia")
 - [Array](array.md "Array - kunjiajia")
