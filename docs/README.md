@@ -8,7 +8,7 @@ This website is a resource that students and software engineers can use to prepa
 - :thought_balloon: Learn to recognize popular coding question patterns
 - :book: Concisely written to avoid lengthy reading time
 - :pencil2: Elegantly commented for comprehension
-- :link: Sidebar organized into distinctive sections to learn specific topics
+- :link: Sidebar organized into distinctive weeks for optimal progress
 - :goberserk: AAAAAAAAAAAAAAAAA!
 
 ## Learning
