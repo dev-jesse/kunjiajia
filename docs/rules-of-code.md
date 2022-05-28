@@ -38,7 +38,7 @@ def twoSum(array, target):
 Another possibility is that the interviewer may give you a particularly challenging question prompt, and follow it up by giving you the solution to the prompt. From here, the interviewer expects you to use reason and logic to code out the solution in a language of your choice. This can be practiced by attempting the approaches given on leetcode editorials without directly looking at the source code.
 
 ## Code Quality
-Code quality is one of the most overlooked aspects when it comes to coding interviews. This is very important, since during development other coworkers will have to use your code so it is vital that the code is easily to read. [Thinkful](https://www.thinkful.com/blog/coding-best-practices/) has written an excellent blog post on this subject which is worth reading. For the purpose of this post, I will list out some of the most important things to look for when practicing to improve code quality.
+Code quality is one of the most overlooked aspects when it comes to coding interviews. This is very important, since during development other coworkers will have to use your code so it is vital that the code is easily to read. [Thinkful](https://www.thinkful.com/blog/coding-best-practices/) has written an excellent blog post on this subject which is worth reading. For the purpose of this section, I will list out some of the most important things to look for when practicing to improve code quality.
 - Define class constants
     - _Example: In a Grid class define a `PAWNPIECE` constant (i.e. `grid[i][j] == Grid.PAWNPIECE`)_
 - Don't couple code

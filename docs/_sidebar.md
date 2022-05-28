@@ -2,6 +2,7 @@
 - [Introduction](README.md "Introduction - kunjiajia")
 - [Rules of Code](rules-of-code.md "Rules of Code - kunjiajia")
 - [Code Quality Crash Course](12-tricks-to-improve-code-quality.md "Code Quality Tricks - kunjiajia")
+- [Unique Algorithms](unique-algo.md "Unique Algorithms - kunjiajia")
 - [Array](array.md "Array - kunjiajia")
 - [String](string.md "String - kunjiajia")
 - [Linked List](linked-list.md "Linked List - kunjiajia")
