@@ -3,6 +3,8 @@
  
 This website is a resource that students and software engineers can use to prepare for their upcoming coding interviews. It is a comprehensive guide detailing patterns and algorithms that often appear during the technical interview. Written and developed by [@jessebinghan](https://www.instagram.com/jessebinghan/) through experience, practice and research.
 
+_Note: As a individual managing and writing for this site, there will be a good likelihood for typos and errors occurring. Feedback and suggestions are greatly appreciated and can be sent to any of my socials._
+
 ## Features
 - :hourglass_flowing_sand: Quickly understand the basics of data structures
 - :thought_balloon: Learn to recognize popular coding question patterns
