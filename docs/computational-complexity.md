@@ -58,3 +58,20 @@ for i in range(1, n):
 
     This one is a little trickier. If you have not taken a entry level math course at university or seen some advanced math proofs, you may struggle with this one. It uses a harmonic series, as the inner loop with iterate `n + n/2 + n/3 + ... + n/n` times, so it simplifies to `lg n`. The outer loop will iterate `n` times, giving us a total time complexity of `O(nlg n)`
 </details>
+
+## BONUS: A Unique Case
+Sometimes people will write `O(n + m) = O(max(n, m))`, so why is this the case? Well, to explain let us do a quick proof as follows,
+```py
+# Consider the terms without Big-O notation, clearly
+n + m >= max(n, m) >= (n + m) / 2
+# where n and m are non-negative integers
+
+# Therefore, we have Big-O bounds by
+O(n + m) >= O(max(n, m)) >= O((n + m) / 2)
+
+# But since we remove constants, the equation above is also equivalent to,
+O(n + m) >= O(max(n ,m)) >= O(n + m)
+
+# So in other words,
+O(n + m) = O(max(n, m))
+```
