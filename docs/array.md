@@ -52,3 +52,30 @@ def twoSum(numbers, target):
 Runtime: O(n) the two pointers travel a total of n elements (n = len(numbers))
 Space: O(1) no extra storage is being used up with data structures
 ```
+
+## Kth Largest Element
+Problem link: [here](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
+### Prompt
+Given an integer array nums and an integer k, return the kth largest element in the array.
+
+Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
+Example 1:
+```
+Input: nums = [3,2,1,5,6,4], k = 2
+Output: 5
+```
+Example 2:
+```
+Input: nums = [3,2,3,1,2,4,5,5,6], k = 4
+Output: 4
+```
+
+### Approach
+
+
+### Solution
+
+
+### Runtime Analysis
