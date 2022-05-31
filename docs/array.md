@@ -35,8 +35,20 @@ Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We retur
 
 ### Solution
 ```py
-TODO
+def twoSum(numbers, target):
+    left, right = 0, len(numbers) - 1
+    while left < right:
+        if numbers[left] + numbers[right] > target:
+            right -= 1
+        elif numbers[left] + numbers[right] < target:
+            left += 1
+        else:
+            return left, right  # leetcode wants left + 1, right + 1
+                                # indexing (i.e. non-zero indexing)
 ```
 
 ### Runtime Analysis
-_TODO_
+```
+Runtime: O(n) the two pointers travel a total of n elements (n = len(numbers))
+Space: O(1) no extra storage is being used up with data structures
+```

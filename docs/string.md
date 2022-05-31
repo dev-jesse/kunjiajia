@@ -55,7 +55,10 @@ def is_palindrome(string):
 ```
 
 ### Runtime Analysis
-
+```
+Runtime: O(n) since both pointers go towards middle, and are on each character once
+Space: O(1) only two pointers are being initialized
+```
 
 ## Valid Palindrome II
 Problem link: [here](https://leetcode.com/problems/valid-palindrome-ii/)
@@ -117,3 +120,7 @@ def is_palindrome(string, left, right):
 ```
 
 ### Runtime Analysis
+```
+Runtime: O(n) worst case since pointers will iterate the array once
+Space: O(1) since no extra data structures are being used
+```
