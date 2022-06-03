@@ -73,9 +73,54 @@ Output: 4
 ```
 
 ### Approach
+1. To find the k-th largest element is the same as finding the len(nums) - k-th smallest element. This is the simple complement rule from statistics.
+2. Use the [Quickselect](https://www.geeksforgeeks.org/quickselect-algorithm/) algorithm, derived from Quicksort. 
 
 
 ### Solution
+```py
+def kth_largest_element(k, nums):
+    if not nums or k < 1 or k > len(A):
+        return None
 
+    # Finding the k-th largest element is the same as finding the
+    # len(nums) - k-th smallest element
+    k = len(nums) - k
+    return quickselect(k, nums, 0, len(nums) - 1)
+
+def quickselect(k, nums, start, end):
+    # K must fall between start and end because of the error checking in the
+    # first line of code in kth_largest_element()
+    if start == end:
+        return nums[k]
+
+    left, right = start, end
+    pivot = nums[0]
+    while left <= right:
+        while left <= right and nums[left] < pivot:
+            left += 1
+        while left <= right and nums[right] > pivot:
+            right -= 1
+        if left <= right:
+            nums[left], nums[right] = nums[right], nums[left]
+            left, right = left + 1, right - 1
+    
+    # IMPORTANT, SEE VIDEO BELOW FOR EXPLANATION
+    if k <= right:
+        return quickselect(k, nums, start, right)
+    if k >= left:
+        return quickselect(k, nums, left, end)
+    return nums[k]
+```
+
+### Video Walkthrough
+<video width="100%" controls>
+    <source src="tutorials/kth-largest.mp4" type="video/mp4">
+</video>
 
 ### Runtime Analysis
+```
+Runtime: Expected O(n), since T(n) = O(n) + T(n/2) 
+Space: O(1), no extra storage being used
+```
+See [Quicksort analysis](https://iq.opengenus.org/time-and-space-complexity-of-quick-sort/) for better understanding of the algorithm's runtime.
