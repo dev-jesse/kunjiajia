@@ -95,7 +95,7 @@ def quickselect(k, nums, start, end):
         return nums[k]
 
     left, right = start, end
-    pivot = nums[0]
+    pivot = nums[(start + end) // 2]
     while left <= right:
         while left <= right and nums[left] < pivot:
             left += 1
@@ -113,10 +113,8 @@ def quickselect(k, nums, start, end):
     return nums[k]
 ```
 
-### Video Walkthrough
-<video width="100%" controls>
-    <source src="tutorials/kth-largest.mp4" type="video/mp4">
-</video>
+### Example Walkthrough
+
 
 ### Runtime Analysis
 ```
@@ -124,3 +122,68 @@ Runtime: Expected O(n), since T(n) = O(n) + T(n/2)
 Space: O(1), no extra storage being used
 ```
 See [Quicksort analysis](https://iq.opengenus.org/time-and-space-complexity-of-quick-sort/) for better understanding of the algorithm's runtime.
+
+## Two Sum - Unique pairs
+Problem link: [here](https://www.lintcode.com/problem/587/)
+
+### Prompt
+Description
+Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
+
+Example 1:
+```
+Input: nums = [1,1,2,45,46,46], target = 47 
+Output: 2
+Explanation:
+
+1 + 46 = 47
+2 + 45 = 47
+```
+
+Example 2:
+```
+Input: nums = [1,1], target = 2 
+Output: 1
+Explanation:
+1 + 1 = 2
+```
+### Approach
+1. Sort the array
+2. Use two pointers, one at the start of the array and the other at the end of the array
+3. If the sum of the numbers at the two pointers is greater than our target, the move the right pointer to the left to decrease the sum. If the sum of the two pointers is less than our target, then move our left pointer to the right to increase the sum. Otherwise, the sum of the numbers at the two pointers is equal to our target, so increment a result counter by one.
+
+### Solution
+```py
+def two_sum6(nums, target):
+    # Sort so we can use two pointers
+    nums.sort()
+    left, right = 0, len(nums) - 1
+    count = 0
+
+    while left < right:
+        if nums[left] + nums[right] == target:
+            count += 1
+            left += 1
+            right -= 1
+
+            # Skip the number if it is the same, since we only
+            # want unique pairs, this way is a little more
+            # complicated, and if you want you can just keep a 
+            # last_pair variable instead
+            while left < right and nums[left - 1] == nums[left]:
+                left += 1
+            while left < right and nums[right + 1] == nums[right]:
+                right -= 1
+        elif nums[left] + nums[right] < target:
+            left += 1
+        else:
+            right -= 1
+
+    return count
+```
+
+### Runtime Analysis
+```
+Runtime: O(n), all elements are 'touched' once by a pointer
+Space: O(1), since no extra storage is being used
+```
