@@ -1,4 +1,4 @@
-# 12 Tricks to Improve Code Quality WOT MATE
+# 12 Tricks to Improve Code Quality
 > "The best error message is the one that never shows up." - Thomas Fuchs
 
 As discussed in the previous section, code quality is vital in preventing bugs. During development, when other coworkers use your code, you want them be able to understand and use you code and easily as possible. Hence, in this post I will talk about some quick changes you can make to improve coding quality.
