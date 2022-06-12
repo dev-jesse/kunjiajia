@@ -42,7 +42,9 @@ class Solution:
     
     def attach_edges(self, nodes, clones):
         for node in nodes:
+            new_node = clones[node]
             for nbr in node.neighbors:
-                clones[node].neighbors.append(clones[nbr])
+                new_neighbor = clones[nbr]
+                new_node.neighbors.append(new_neighbor)
         return
 ```
