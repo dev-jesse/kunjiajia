@@ -46,5 +46,4 @@ class Solution:
             for nbr in node.neighbors:
                 new_neighbor = clones[nbr]
                 new_node.neighbors.append(new_neighbor)
-        return
 ```
