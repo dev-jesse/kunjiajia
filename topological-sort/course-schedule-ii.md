@@ -1,3 +1,4 @@
+```python3
 from collections import deque
 
 class Solution:
@@ -25,3 +26,4 @@ class Solution:
                     queue.append(nbr)
                     
         return res if len(res) == numCourses else []
+```
