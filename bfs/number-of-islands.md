@@ -27,10 +27,19 @@ class Solution:
                 next_r = r + dx
                 next_c = c + dy
                 
-                if next_r in range(len(grid)) and \
-                next_c in range(len(grid[0])) and \
-                (next_r, next_c) not in visited and \
-                grid[next_r][next_c] == "1":
+                if self.is_valid(next_r, next_c, grid, visited):
                     queue.append((next_r, next_c))
                     visited.add((next_r, next_c))
+                    
+    def is_valid(self, r, c, grid, visited):
+        if r not in range(len(grid)):
+            return False
+        
+        if c not in range(len(grid[0])):
+            return False
+        
+        if (r, c) in visited:
+            return False
+        
+        return grid[r][c] == "1"
 ```
