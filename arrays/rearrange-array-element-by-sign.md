@@ -1,7 +1,6 @@
 ```python3
 class Solution:
     def rearrangeArray(self, a: List[int]) -> List[int]:
-        # write your code here
         partition_index = self.partition(a, 0)
         left = 1 if partition_index >= (len(a) / 2) else 0
         right = len(a) - 2 if partition_index <= (len(a) / 2) else len(a) - 1
