@@ -8,7 +8,6 @@ class TwoSum:
         self.nums = {}
 
     def add(self, number):
-        # write your code here
         self.nums[number] = self.nums.get(number, 0) + 1
 
     """
@@ -16,7 +15,6 @@ class TwoSum:
     @return: Find if there exists any pair of numbers which sum is equal to the value.
     """
     def find(self, value):
-        # write your code here
         for num in self.nums:
             difference = value - num
             num_cnt = 2 if difference == num else 1
