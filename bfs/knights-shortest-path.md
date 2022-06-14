@@ -21,7 +21,6 @@ class Solution:
     @return: the shortest path 
     """
     def shortest_path(self, grid: List[List[bool]], source: Point, destination: Point) -> int:
-        # write your code here
         queue = deque([(source.x, source.y)])
         distance = {(source.x, source.y): 0}
 
