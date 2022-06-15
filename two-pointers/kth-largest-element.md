@@ -10,7 +10,8 @@ class Solution:
     @return: the Kth largest element
     """
     def kth_largest_element(self, k: int, nums: List[int]) -> int:
-        return self.quickselect(len(nums) - k, nums, 0, len(nums) - 1)
+        k = len(nums) - k
+        return self.quickselect(k, nums, 0, len(nums) - 1)
 
     def quickselect(self, k, nums, start, end):
         if start == end:
