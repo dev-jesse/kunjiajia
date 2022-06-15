@@ -5,7 +5,6 @@ class Solution:
     @return: the length of the longest palindromes that can be built
     """
     def longest_palindrome(self, s: str) -> int:
-        # write your code here
         char_count = collections.Counter(s)
         
         res = 0
