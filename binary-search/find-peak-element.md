@@ -9,7 +9,6 @@ class Solution:
     @return: return any of peek positions.
     """
     def find_peak(self, a: List[int]) -> int:
-        # write your code here
         start, end = 1, len(a) - 2
         while start + 1 < end:
             mid = (start + end) // 2
