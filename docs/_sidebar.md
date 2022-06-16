@@ -7,3 +7,4 @@
 - [Sorting Sorcery](sorting-sorcery.md "Sorting Sorcery - kunjiajia")
 - [Computation Complexity](computational-complexity.md "Computation Complexity - kunjiajia")
 - [Unique Algorithms](unique-algo.md "Unique Algorithms - kunjiajia")
+- **Jesse's SDE Problemset**
