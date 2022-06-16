@@ -9,19 +9,18 @@ class Solution:
         if not nums:
             return -1
 
-        left, right = 0, len(nums) - 1
-        while left + 1 < right:
-            mid = (left + right) // 2
+        start, end = 0, len(nums) - 1
+        while start + 1 < end:
+            mid = (start + end) // 2
             if target == nums[mid]:
                 return mid
             elif target < nums[mid]:
-                right = mid
+                end = mid
             else:
-                left = mid
+                start = mid
 
-        if nums[left] == target:
-            return left
-        if nums[right] == target:
-            return right
+        if nums[start] == target:
+            return start
+        if nums[end] == target:
+            return end
         return -1
-```
