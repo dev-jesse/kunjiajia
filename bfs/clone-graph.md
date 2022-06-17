@@ -1,4 +1,5 @@
 ```python3
+# Version 1
 from collections import deque
 
 """
@@ -46,4 +47,39 @@ class Solution:
             for nbr in node.neighbors:
                 new_neighbor = clones[nbr]
                 new_node.neighbors.append(new_neighbor)
+                
+# Version 2 (Shortened)
+from lintcode import (
+    UndirectedGraphNode,
+)
+
+"""
+Definition for a UndirectedGraphNode:
+class UndirectedGraphNode:
+    def __init__(self, label):
+        self.label = label
+        self.neighbors = []
+"""
+
+class Solution:
+    """
+    @param node: A undirected graph node
+    @return: A undirected graph node
+    """
+    def clone_graph(self, node: UndirectedGraphNode) -> UndirectedGraphNode:
+        if not node:
+            return
+        
+        visited = {node: UndirectedGraphNode(node.label)}
+        queue = collections.deque([node])
+
+        while queue:
+            curr = queue.popleft()
+            for nbr in curr.neighbors:
+                if nbr not in visited:
+                    visited[nbr] = UndirectedGraphNode(nbr.label)
+                    queue.append(nbr)
+                visited[curr].neighbors.append(visited[nbr])
+
+        return visited[node]
 ```
