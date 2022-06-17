@@ -1,34 +1,42 @@
 ```python3
-from collections import deque
+from typing import (
+    Set,
+)
 
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        wordList = set(wordList)
-        queue = deque([beginWord])
-        distance = {beginWord: 1}
-        
+    """
+    @param start: a string
+    @param end: a string
+    @param dict: a set of string
+    @return: An integer
+    """
+    def ladder_length(self, start: str, end: str, dict: Set[str]) -> int:
+        dict.add(end)
+        queue = collections.deque([start])
+        distance = {start: 1}
+
         while queue:
             word = queue.popleft()
-            
-            if word == endWord:
+
+            if word == end:
                 return distance[word]
-            
-            for next_word in self.get_next_words(word, wordList):
+
+            for next_word in self.get_next_words(word, dict):
                 if next_word in distance:
                     continue
-                queue.append(next_word)
                 distance[next_word] = distance[word] + 1
-                
+                queue.append(next_word)
+
         return 0
-                
-    def get_next_words(self, word, wordList):
+
+    def get_next_words(self, word, dict):
         words = []
         for i in range(len(word)):
-            left, right = word[:i], word[i + 1:]
-            for char in 'abcdefghijklmnopqrstuvwxyz':
-                next_word = left + char + right
-                if next_word in wordList:
-                    words.append(next_word)
-        
+            prefix, suffix = word[:i], word[i + 1:]
+            for ch in 'abcdefghijklmnopqrstuvwxyz':
+                next_word = prefix + ch + suffix
+                if next_word not in dict:
+                    continue
+                words.append(next_word)
         return words
 ```
