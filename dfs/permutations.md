@@ -1,4 +1,5 @@
 ```python3
+# Solution 1
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         # nums.sort()  // Not needed but usually involved in solutions
@@ -18,4 +19,22 @@ class Solution:
                 self.dfs(nums, visited, permutation, permutations)
                 permutation.pop()
                 visited.remove(nums[i])
+                
+                
+# Solution 2
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        # nums.sort()  // Not needed but usually involved in solutions
+        permutations = []
+        self.dfs(nums, [], permutations)
+        return permutations
+    
+    def dfs(self, nums, permutation, permutations):
+        if len(permutation) == len(nums):
+            permutations.append(list(permutation))
+        else:
+            for i in range(len(nums)):
+                if nums[i] in permutation:
+                    continue
+                self.dfs(nums, permutation, permutations)
 ```
