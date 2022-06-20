@@ -36,5 +36,7 @@ class Solution:
             for i in range(len(nums)):
                 if nums[i] in permutation:
                     continue
+                permutation.append(nums[i])
                 self.dfs(nums, permutation, permutations)
+                permutation.pop()
 ```
