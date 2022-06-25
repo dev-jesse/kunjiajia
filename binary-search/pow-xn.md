@@ -15,4 +15,20 @@ class Solution:
         if n % 2:
             return x * self.myPow(x * x, (n - 1) // 2)
         return self.myPow(x * x, n // 2)
+        
+# Solution 2 - Iterative (faster but logically hard to understand)
+class Solution:
+    def myPow(self, x, n):
+        if n < 0:
+            n = -n
+            x = 1 / x
+            
+        ans = 1
+        while n:
+            if n % 2:
+                ans *= x
+            x *= x
+            n //= 2
+            
+        return ans
 ```
