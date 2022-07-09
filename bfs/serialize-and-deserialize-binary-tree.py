@@ -12,7 +12,7 @@ def serialize(self,root):
         queue.pop()
     return'{%s}'%','.join([str(node.val)if node is not None else '#' for node in queue])
   
- def deserialize(self,data):
+def deserialize(self,data):
     data=data.strip('\n')
     if data =='{}':
         return None
