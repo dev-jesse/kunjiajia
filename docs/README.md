@@ -10,8 +10,8 @@ _Note: As a individual managing and writing for this site, there will be a good 
 - :thought_balloon: Learn to recognize popular coding question patterns
 - :book: Concisely written to avoid lengthy reading time
 - :pencil2: Elegantly commented for comprehension
-- :link: Sidebar organized into distinctive weeks for optimal progress
-- :goberserk: AAAAAAAAAAAAAAAAA!
+- :link: Sidebar organized into distinctive topics for optimal progress
+<!-- - :goberserk: Save yourself hours of rage on tricky algorithms -->
 
 ## Learning
 
