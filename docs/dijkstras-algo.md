@@ -1,6 +1,6 @@
 # Dijkstra's Algorithm
 ## Explanation
-<iframe width="100%" height="400vh" src="https://www.youtube.com/embed/_UaBUG5D1MA" title="Dijkstra's Algorithm | Explanation & Example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>.responsive{position:relative;width:100%;height:0;padding-bottom:56.27198%;}.responsive iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="responsive"><iframe width='500' height='294' src="https://www.youtube.com/embed/_UaBUG5D1MA?&theme=dark&autohide=2"frameborder="0"></iframe></div><div style='font-size: 0.8em'></div>
 
 ## Template Code
 ```py
