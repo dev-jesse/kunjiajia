@@ -6,6 +6,9 @@
 - [String Methods Mastery](string-methods-mastery.md "String Methods Mastery - kunjiajia")
 - [Sorting Sorcery](sorting-sorcery.md "Sorting Sorcery - kunjiajia")
 - [Computation Complexity](computational-complexity.md "Computation Complexity - kunjiajia")
+- **Learn**
+- [Dijkstra's Algorithm](dijkstras-algo.md "Dijkstra's Algorithm - kunjiajia")
 - **Problemset**
-- [Strings](strings/_toc.md "Strings - kunjiajia")
+- [String](string/_toc.md "String - kunjiajia")
+- [Array](array/_toc.md "Array - kunjiajia")
 - [Two Pointers](two_pointers/_toc.md "Two Pointers - kunjiajia")

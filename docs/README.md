@@ -15,7 +15,11 @@ _Note: As a individual managing and writing for this site, there will be a good 
 
 ## Learning
 
-_Suggested learning strategy:_ Read the question prompt and attempt the problem until stuck. At this stage, your brain will do the most learning. Similar to maximal muscle growth in the gym when nearing failure, you want your brain to try to complete the question until absolutely all ideas are exhausted (_est. 30 min_). At this point, read the approach given and code out the solution on an IDE of your choice. Then, you may check the source code provided to cross-reference for mistakes.
+_Suggested learning strategy:_
+1. Read the problem and give yourself around 5 minutes to just think of a solution, there is no need to use a keyboard at this point
+2. If you can determine an approach, then you may code it up and solve the problem
+3. If the problem cannot be solved within 30 min, pull up the _Solutions_ tab and read an approach from one of the top posts
+4. Implement the approach yourself, and if you cannot do that then read the source code and return to this problem at a later date
 
 ## Socials
 <li style="list-style-type: none; display: flex; justify-content: space-between;">
@@ -23,7 +27,5 @@ _Suggested learning strategy:_ Read the question prompt and attempt the problem 
     <a href="https://www.instagram.com/jessebinghan/" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png" width=90px></a>
     <a href="https://www.linkedin.com/in/jessebinghan/" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/linkedin.png" width=90px></a>
     <a href="https://github.com/dev-jesse" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/github.png" width=90px></a>
-    <a href="https://www.youtube.com/watch?v=GbZFSi8L1V4" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/youtube.png"width=90px></a>
+    <a href="https://www.youtube.com/channel/UCbH8oEMdMajEH_wHImkwRgQ" target="_blank"><img src="https://img.icons8.com/stickers/100/000000/youtube.png"width=90px></a>
 </li>
-
-_Youtube coming soon... :)_
