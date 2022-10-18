@@ -213,6 +213,7 @@ Output = 0.2288439525376001
 
 ### Solution
 **Intuition**
+
 This question was confusing to me at first, however once you understand the main idea of the
 question the recurrence becomes prevalent. Hopefully I can illustrate this through an example
 ```
