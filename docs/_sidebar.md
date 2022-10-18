@@ -1,14 +1,18 @@
 <!-- TODO: Complete with your own sidebar structure and enable sidebar in index.html - or delete this file. -->
+
 - **Readings**
-- [Introduction](README.md "Introduction - kunjiajia")
-- [Rules of Code](rules-of-code.md "Rules of Code - kunjiajia")
-- [Code Quality Crash Course](12-tricks-to-improve-code-quality.md "Code Quality Tricks - kunjiajia")
-- [String Methods Mastery](string-methods-mastery.md "String Methods Mastery - kunjiajia")
-- [Sorting Sorcery](sorting-sorcery.md "Sorting Sorcery - kunjiajia")
-- [Computation Complexity](computational-complexity.md "Computation Complexity - kunjiajia")
+- [Introduction](README.md 'Introduction - kunjiajia')
+- [Rules of Code](rules-of-code.md 'Rules of Code - kunjiajia')
+- [Code Quality Crash Course](12-tricks-to-improve-code-quality.md 'Code Quality Tricks - kunjiajia')
+- [String Methods Mastery](string-methods-mastery.md 'String Methods Mastery - kunjiajia')
+- [Sorting Sorcery](sorting-sorcery.md 'Sorting Sorcery - kunjiajia')
+- [Computation Complexity](computational-complexity.md 'Computation Complexity - kunjiajia')
+- **Algorithm Design & Analysis**
+- [Intro to DP I](algo-design/dp-i.md 'Dynamic Programming I- kunjiajia')
+- [Intro to DP II](algo-design/dp-ii.md 'Dynamic Programming II - kunjiajia')
 - **Learn**
 - [Dijkstra's Algorithm](dijkstras-algo.md "Dijkstra's Algorithm - kunjiajia")
 - **Problemset**
-- [String](string/_toc.md "String - kunjiajia")
-- [Array](array/_toc.md "Array - kunjiajia")
-- [Two Pointers](two_pointers/_toc.md "Two Pointers - kunjiajia")
+- [String](problemset/string.md 'String - kunjiajia')
+- [Array](problemset/array.md 'Array - kunjiajia')
+- [Two Pointers](problemset/two_pointers.md 'Two Pointers - kunjiajia')
