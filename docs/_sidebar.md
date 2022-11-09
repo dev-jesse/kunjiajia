@@ -10,6 +10,7 @@
 - **Algorithm Design & Analysis**
 - [Intro to DP I](algo-design/dp-i.md 'Dynamic Programming I- kunjiajia')
 - [Intro to DP II](algo-design/dp-ii.md 'Dynamic Programming II - kunjiajia')
+- [Minimum Spanning Trees](algo-design/mst.md 'Minimum Spanning Trees - kunjiajia')
 - **Learn**
 - [Dijkstra's Algorithm](dijkstras-algo.md "Dijkstra's Algorithm - kunjiajia")
 - **Problemset**

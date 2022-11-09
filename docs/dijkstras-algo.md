@@ -33,4 +33,4 @@ def dijkstra(graph, start, destination):
 
     # Return the minimal distance to get from 'start' to 'destination'
     return d[destination]
-    ```
+```
