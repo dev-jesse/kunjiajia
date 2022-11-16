@@ -5,7 +5,9 @@ The Prim’s algorithm starts by connecting one vertex to another randomly chose
 Kruskal's algorithm starts by selecting two vertices from among all possible pairs of vertices and adding them to the MST as its first two nodes. Then for each unconnected pair of nodes, it finds the cheapest edge connecting them.
 
 ## Possible Properties
+
 ### Possible Property 1
+
 **Property**
 
 If e is a minimum-weight edge in connected graph G (where not all edge weights are necessarily distinct), then every minimum spanning tree of G contains e.
@@ -15,6 +17,7 @@ If e is a minimum-weight edge in connected graph G (where not all edge weights a
 False! Imagine you have a graph G with all the same weights. Then some of the MSTs will now have e.
 
 ### Possible Property 2
+
 **Property**
 
 If e is a minimum-weight edge in connected graph G with distinct edge weights, then every
@@ -25,6 +28,7 @@ minimum spanning tree of G contains e.
 True! Suppose that T is spanning tree that does not contain e. Let e be the edge that connects vertices a and b. T contains a path from a to b such that if T + {e} would create a cycle C. For all e' in C that is not e, we have that w(e') > w(e). For any e' we have T' = T + {e} - {e'} which results in w(T') < w(T), showing that T is not a MST. Proof by contradiction.
 
 ### Possible Property 3
+
 **Property**
 
 If G is a connected graph with distinct edge weights, and e is the maximum-weight edge
@@ -33,12 +37,15 @@ on some cycle C, then no minimum spanning tree of G contains e.
 **Answer**
 
 True! Suppose that we have e = (a, b), that is e connects vertices a and b. Then, since there exists
-a cycle C, there must be another path from a to b such that an edge f has a lesser weight that e, that is 
+a cycle C, there must be another path from a to b such that an edge f has a lesser weight that e, that is
 w(f) < w(e). Therefore, let T' = T - e + f, well, w(T') < w(T) and hence T must not be a MST.
 
 ## Reverse-Delete
+
 ### Statement
+
 Reverse-delete algorithm will always find a MST:
+
 ```
 sort edges by non-increasing weight: w(e_1) >= ... >= w(e_m)
 T <- E
@@ -48,5 +55,12 @@ for j <- 1,2,...,m:
 return T
 ```
 
-### Proof
-Suppose that 
+### Implementation
+
+Since this is not a very effective algorithm, I have decided not to write a entire snippet of code dedicated to
+detailing the specifics of implementation, but I will share some insight about it.
+
+1. Very similar to Kruskal's algorithm, since it seems that we delete the largest weights first
+2. Modify Kruskal's algorithm, so that we first sort the edges in non-increasing order
+3. Further, use create a UnionFindDelete data structure so that we can check if deletion will cause graph is disconnect (since we can think of the graph as a single connected component)
+4. If there are n nodes in the graph, then we know that when there remain n - 1 edges left, that we have our desired MST
