@@ -12,6 +12,7 @@
 - [Intro to DP II](algo-design/dp-ii.md 'Dynamic Programming II - kunjiajia')
 - [Minimum Spanning Trees](algo-design/mst.md 'Minimum Spanning Trees - kunjiajia')
 - [Greedy Coin Changing](algo-design/greedy-coin-changing.md 'Greedy Coin Changing - kunjiajia')
+- [Shortest Paths](algo-design/shortest-paths.md 'Shortest Paths - kunjiaija')
 - **Learn**
 - [Dijkstra's Algorithm](dijkstras-algo.md "Dijkstra's Algorithm - kunjiajia")
 - **Problemset**
