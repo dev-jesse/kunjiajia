@@ -19,3 +19,5 @@
 - [String](problemset/string.md 'String - kunjiajia')
 - [Array](problemset/array.md 'Array - kunjiajia')
 - [Two Pointers](problemset/two_pointers.md 'Two Pointers - kunjiajia')
+- [Binary Search](problemset/binary_search.md 'Binary Search - kunjiajia')
+- [Additional Resources](problemset/additional_resources.md 'Additional Resources - kunjiajia')
